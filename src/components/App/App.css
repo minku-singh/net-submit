@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-image: linear-gradient(white, rgb(248, 248, 103));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}

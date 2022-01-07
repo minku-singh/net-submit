@@ -1,0 +1,64 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+.section-1, .section-2, .section-3{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.section-1--left{
+    width: 30vw;
+}
+.section-1--right{
+    width: 60vw;
+}
+
+.section-1--left > img{
+    width: 30vw;
+}
+.section-1--right > img{
+    width: 60vw;
+    margin: 2vh 0;
+}
+
+
+/* section-2 */
+.section-2 > article > p{
+    font-size: 0.9rem;
+    margin-bottom: 1.5vh;
+}
+.section-2 > img{
+    width: 80%;
+    align-self: center;
+}
+
+/* section-3  */
+ h4{
+    margin-bottom: 2vh;
+}
+.section-3 p{
+    font-size: 0.9rem;
+}
+
+.vhr{
+    display: inline-block;
+    height: 12px;
+    border-left: 2px solid rgb(230, 31, 31);
+}
+
+hr{
+    border: 1px solid rgb(230, 31, 31);
+}
+
+.section-3 > article {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+.footer{
+    background-color: rgb(230, 31, 31);
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer > i{
+    color: white;
+    cursor: pointer;
+    margin: 10px
+}
