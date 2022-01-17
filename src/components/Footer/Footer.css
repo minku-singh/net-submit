@@ -2,13 +2,15 @@
     background-color: rgb(230, 31, 31);
     height: 15vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
 }
 
-.footer > i{
+.footer > .icons{
     color: white;
     cursor: pointer;
-    margin: 10px
+}
+.footer > .icons > i{
+    margin: 0 1.5rem;
 }
